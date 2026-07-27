@@ -1,0 +1,81 @@
+{
+  "id": "path-playtest",
+  "type": "module",
+  "title": "Team+ Playtest",
+  "description": "Contenido de playtest de Team+ para Pathfinder Second Edition.",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Bobalo126",
+      "url": "https://github.com/Alexis-Arias"
+    }
+  ],
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "url": "https://github.com/Alexis-Arias/Team-Plus-Playtest",
+  "manifest": "https://github.com/Alexis-Arias/Team-Plus-Playtest/releases/latest/download/module.json",
+  "download": "https://github.com/Alexis-Arias/Team-Plus-Playtest/releases/download/v1.0.0/path-playtest.zip",
+  "bugs": "https://github.com/Alexis-Arias/Team-Plus-Playtest/issues",
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system"
+      }
+    ]
+  },
+  "flags": {
+    "canUpload": true
+  },
+  "packFolders": [
+    {
+      "name": "Team+ Playtest",
+      "sorting": "a",
+      "packs": [
+        "Playtest",
+        "Playtest-Tables",
+        "Playtest-Macros"
+      ]
+    }
+  ],
+  "packs": [
+    {
+      "name": "Playtest",
+      "label": "Playtest+ Items",
+      "path": "packs/Playtest",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "Playtest-Tables",
+      "label": "Playtest+ Tables",
+      "path": "packs/Playtest-Tables",
+      "type": "RollTable",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "Playtest-Macros",
+      "label": "Playtest+ Macros",
+      "path": "packs/Playtest-Macros",
+      "type": "Macro",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    }
+  ]
+}

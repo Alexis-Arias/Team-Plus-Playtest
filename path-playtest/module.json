@@ -3,7 +3,7 @@
   "type": "module",
   "title": "Team+ Playtest",
   "description": "Contenido de playtest de Team+ para Pathfinder Second Edition.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "authors": [
     {
       "name": "Bobalo126",
@@ -16,7 +16,7 @@
   },
   "url": "https://github.com/Alexis-Arias/Team-Plus-Playtest",
   "manifest": "https://github.com/Alexis-Arias/Team-Plus-Playtest/releases/latest/download/module.json",
-  "download": "https://github.com/Alexis-Arias/Team-Plus-Playtest/releases/download/v1.0.0/path-playtest.zip",
+  "download": "https://github.com/Alexis-Arias/Team-Plus-Playtest/releases/download/v1.0.1/path-playtest.zip",
   "bugs": "https://github.com/Alexis-Arias/Team-Plus-Playtest/issues",
   "relationships": {
     "systems": [
@@ -26,8 +26,43 @@
       }
     ]
   },
+  "esmodules": [
+    "scripts/settings.js",
+    "scripts/vessel/frustrated.js",
+    "scripts/vessel/vessel-automation.js"
+  ],
   "flags": {
-    "canUpload": true
+    "canUpload": true,
+    "path-playtest": {
+      "pf2e-homebrew": {
+        "classTraits": {
+          "vessel": {
+            "label": "Vessel",
+            "description": "An ability associated with the Vessel class."
+          }
+        },
+        "featTraits": {
+          "persona": {
+            "label": "Persona",
+            "description": "An action, spell or ability with the persona trait can only be used while you are in your persona form. Ongoing effects created by a persona effect immediately end if you return to shadow form."
+          },
+          "latent": {
+            "label": "Latent",
+            "description": "An action or ability with the latent trait can only be used while you are in your shadow form. Ongoing effects created by a latent effect immediately end if you return to persona form."
+          },
+          "duality": {
+            "label": "Duality",
+            "description": "A Vessel class feat that grants benefits related to both your persona and shadow forms."
+          }
+        },
+        "spellTraits": {
+          "persona": {
+            "label": "Persona",
+            "description": "An action, spell or ability with the persona trait can only be used while you are in your persona form. Ongoing effects created by a persona effect immediately end if you return to shadow form."
+          }
+        }
+      }
+    }
   },
   "packFolders": [
     {

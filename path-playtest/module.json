@@ -16,7 +16,7 @@
   },
   "url": "https://github.com/Alexis-Arias/Team-Plus-Playtest",
   "manifest": "https://github.com/Alexis-Arias/Team-Plus-Playtest/releases/latest/download/module.json",
-  "download": "https://github.com/Alexis-Arias/Team-Plus-Playtest/releases/download/v1.0.1/path-playtest.zip",
+  "download": "https://github.com/Alexis-Arias/Team-Plus-Playtest/releases/download/v1.1.0/path-playtest.zip",
   "bugs": "https://github.com/Alexis-Arias/Team-Plus-Playtest/issues",
   "relationships": {
     "systems": [
